@@ -19,7 +19,11 @@ npm install
 ```
 DATABASE_URL="postgresql://user:pass@ep-cool-pooler.region.neon.tech/neondb?sslmode=require"
 ```
-*In test case scenario you can use [Neon DB](https://neon.com) create a project, then copy the database connection url, refer to docs[Neon Docs](https://neon.com/docs/introduction/branching)*
+
+* In test case scenario you can use [Neon DB](https://neon.com)
+- Create a project, then copy the database connection url, refer to docs[Neon Docs](https://neon.com/docs/introduction/branching).
+- Paste that database connection url.
+* The above url is just an example, do not use it in main project!
 
 ## **4. Generate Prisma Client This project uses a custom output path (./generated/prisma)**
 
@@ -52,7 +56,7 @@ npx prisma db seed
 
 
 ## ✅ Verification
-# To verify the system integrity and circular links:
+## To verify the system integrity and circular links:
 
 ```
 npx tsx verify.ts
